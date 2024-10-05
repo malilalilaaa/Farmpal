@@ -1,61 +1,54 @@
-Farmpal
-Team Voyagers presents Aqua Explorer - Embark on a Journey to Understand the Earth's Water Cycle and Climate Change
-Introduction
+#Farmpal
+Team Palindrome presents Farmpal - An agricultural app is designed to empower farmers by leveraging NASA data and advanced technologies to tackle critical challenges 
+
+#Introduction
 Welcome to Aqua Explorer, an educational and interactive web-based game designed to enlighten and engage middle and high school students in the fascinating world of the Earth's water cycle and the profound impact of climate change on our planet's freshwater resources.
-Team Voyagers
-Team Leader: Md Khalid Sakib
-App Developer: Md. Abdul Malek
-Researcher: Fahmida Akter
-Level Designer: Md. Atik
-UI/UX Designer: Md. Shakhawat Hossen
-Features
+
+#Team Palindrome
+Team Leader: Sajib Kumar Das
+App Developer & Data Analyst: Shafwat Mahiya
+Researcher & Communication Coordinator: Sazzd Hossen Chowdhury
+Creative Stratigist: Adnan Samim
+UI/UX Designer: Nowshin Binta Mosharaf
+
+
+#Features
 1. Animated Splash Screen
 2. Insetrs users name
 3. Select Gender
 4. Reads articles
 5. Four steps of game level
 6. Preview of some NASA Satellites
-Tools
-Android studio
-Adobe xd
+
+
+#Tools
+VS Code
+Figma
 Github
-Technologies
+Postman
+
+#Technologies
 Dart, Framework (flutter)
 Firebase
-AR View(In future)
+
 Screen-shots
-s1 s2 s3 s4 s5 s6
 
-s7 s8 s9 s10 s12 s11
+The agricultural app empowers farmers by integrating NASA data and advanced technologies to address key challenges.Upon launching the app, users are prompted to select their preferred language, ensuring accessibility for diverse communities.
 
-Getting Started
-Introduction:
-Start your journey with an immersive quote or story that sets the stage for the adventure that awaits. Dive into the importance of the water cycle and its intricate connection with climate change. Before you embark on your quest, select a unique character name that will represent you throughout the game.
+They can then log in using their phone numbers, or register with an OTP-based system, utilizing Firebase authentication for security.
 
-Select a Country:
-Choose a country to explore, each presenting its distinct water-related challenges and scenarios. The fate of your character's journey and the knowledge they gain will depend on the country they select.
+The app's dashboard is divided into two main sections: Explore and NASA Gallery. The Explore section offers seven key features: AgriSmart (crop recommendations), Flood Detection, Drought Detection, Irrigation Management, Disease Detection, a global Community for farmer communication, and an AI voice assistant named Xorina, which responds to voice commands. These tools help farmers predict natural disasters, optimize crop decisions, and seek expert advice.
+The NASA Gallery section displays agriculture-related videos to enhance farmers' knowledge through visual content. This app focuses on connecting farmers to real-time data and expert guidance, enabling them to make informed decisions and increase resilience against environmental challenges.
 
-Game Levels
-Ocean Origins - The Deep Dive
-In this level, you will plunge into the depths of the ocean, exploring the origin of Earth's water. Learn about ocean currents, temperature, and the crucial role the ocean plays in storing vast amounts of water. Interact with the virtual environment to witness these processes firsthand.
+AgriSmart: a crop recommendation system that retrieves location-based data such as temperature, humidity, soil pH, and rainfall from APIs. It then recommends four best-suited crops, which users can directly add to their profile under the "Your Crops" section.
 
-Atmospheric Adventure - Cloud Chasers
-Embark on a thrilling adventure as you follow a water droplet's journey from the ocean's surface to the sky. Manipulate temperature and humidity to understand their impact on precipitation and cloud formation. Gain insights into the critical relationship between climate and the water cycle.
+Flood Detection: powered by a machine learning model for flood prediction, it retrieves real-time MODIS images (from the last two days via the Terra API) to show current conditions and provides a flood risk percentage. A drop-down menu offers four options: Shelter Cluster, Pre-flood Recovery, Post-flood Recovery, and Connect with Authority for emergency support.
 
-Earth's Surface Impact - Bangladesh Unveiled
-Choose Bangladesh as your destination and delve into the intricate web of the water cycle as it affects this unique country. Explore how water interacts with various landforms, such as mountains, rivers, and lakes. Learn about groundwater, aquifers, and the significance of soil moisture. Discover the challenges Bangladesh faces in managing its water resources.
+Drought Detection: This feature analyzes data on soil moisture, temperature, and precipitation levels to predict the likelihood of droughts. It provides real-time updates, helping farmers plan irrigation schedules and mitigate the risk of crop failure due to water scarcity.
+Irrigation Management: This tool leverages satellite data on groundwater storage and soil moisture to create optimized irrigation schedules. Farmers receive personalized recommendations for efficient water use, ensuring crops are well-hydrated while conserving water resources.
 
-Climate's Impact - Revealing Water's Fate
-In this final level, unveil the broader implications of climate change on the planet's water resources. Understand the intensified hydroclimatic extremes, uneven distribution of freshwater resources on land, and the deviations from the norms in the global water cycle. Take part in interactive scenarios that depict the effects of human activities on freshwater availability.
 
-Educational Goals
-Foster a deep understanding of the Earth's water cycle and the role of climate change in altering it.
-Empower students to make informed decisions about water conservation and sustainability.
-Enhance critical thinking skills by allowing students to experiment with various scenarios and observe the outcomes.
-Promote environmental awareness and inspire future scientists and conservationists.
-Aqua Explorer aims to make learning about the water cycle and climate change engaging and accessible for students, ultimately contributing to a more informed and environmentally conscious generation.
+AI Voice Assistant Xorina: Xorina allows farmers to interact with the app via voice commands, making the app even more accessible. Whether it's getting crop recommendations, flood updates, or disease alerts, farmers can quickly access information hands-free, enhancing the user experience.
 
-Play Now
-Embark on your Aqua Explorer journey today and be part of the solution in addressing one of our planet's most critical challenges - climate change and water conservation.
 
-Feedback and Support We value your feedback! If you have any questions, suggestions, or encounter any issues while playing Aqua Explorer, please reach out to us. Your input helps us improve the game and provide a better learning experience. Thank you for joining us on this important mission to explore, learn, and protect our planet's precious water resources!
+Global Community: A dedicated space where farmers can connect, share knowledge, and seek advice from fellow farmers and agricultural experts worldwide. The community fosters collaboration, offering support on various farming issues and innovations.

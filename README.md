@@ -1,10 +1,10 @@
-#Farmpal
+Farmpal:
 Team Palindrome presents Farmpal - An agricultural app is designed to empower farmers by leveraging NASA data and advanced technologies to tackle critical challenges 
 
-#Introduction
-Welcome to Aqua Explorer, an educational and interactive web-based game designed to enlighten and engage middle and high school students in the fascinating world of the Earth's water cycle and the profound impact of climate change on our planet's freshwater resources.
+Introduction:
+Welcome to Farmpal - An agricultural app is designed to empower farmers by leveraging NASA data and advanced technologies to tackle critical challenges 
 
-#Team Palindrome
+Team Palindrome:
 Team Leader: Sajib Kumar Das
 App Developer & Data Analyst: Shafwat Mahiya
 Researcher & Communication Coordinator: Sazzd Hossen Chowdhury
@@ -12,7 +12,7 @@ Creative Stratigist: Adnan Samim
 UI/UX Designer: Nowshin Binta Mosharaf
 
 
-#Features
+Features:
 1. Animated Splash Screen
 2. Insetrs users name
 3. Select Gender
@@ -21,17 +21,17 @@ UI/UX Designer: Nowshin Binta Mosharaf
 6. Preview of some NASA Satellites
 
 
-#Tools
+Tools:
 VS Code
 Figma
 Github
 Postman
 
-#Technologies
+Technologies:
 Dart, Framework (flutter)
 Firebase
 
-Screen-shots
+Screen-shots:
 
 The agricultural app empowers farmers by integrating NASA data and advanced technologies to address key challenges.Upon launching the app, users are prompted to select their preferred language, ensuring accessibility for diverse communities.
 
